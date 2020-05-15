@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Query">ba4aeae6537233008959ddeeff7b12c0</copied_from>
+        <description>Validate there are not any records in 'conflict' matching query:
+Change = {{Step 2: Record Insert.Record}}
+and Type = Inside Blackout Window
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>6be037852f2c1010a84e3e0ef699b617</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_6be037852f2c1010a84e3e0ef699b617</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <table>conflict</table>
+        <test display_value="CHG: Change against Blackout window copy">9fe073852f2c1010a84e3e0ef699b658</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6be037852f2c1010a84e3e0ef699b617"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6be037852f2c1010a84e3e0ef699b617</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>2fe037852f2c1010a84e3e0ef699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <value>no_records_match_query</value>
+        <variable display_value="">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6be037852f2c1010a84e3e0ef699b617</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>67e037852f2c1010a84e3e0ef699b61a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <value>change={{step['dfe037852f2c1010a84e3e0ef699b610'].record_id}}^type=blackout^EQ</value>
+        <variable display_value="">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6be037852f2c1010a84e3e0ef699b617</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>a3e037852f2c1010a84e3e0ef699b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <value>conflict</value>
+        <variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6be037852f2c1010a84e3e0ef699b617</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>efe037852f2c1010a84e3e0ef699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6be037852f2c1010a84e3e0ef699b617"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>6be037852f2c1010a84e3e0ef699b617</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 23:47:34</sys_created_on>
+        <sys_id>ebe037852f2c1010a84e3e0ef699b61a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 23:47:34</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>change={{step['dfe037852f2c1010a84e3e0ef699b610'].record_id}}^type=blackout^EQ</value>
+    </sys_element_mapping>
+</record_update>
